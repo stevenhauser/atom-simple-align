@@ -1,0 +1,21 @@
+{
+  "name": "simple-align",
+  "main": "./lib/simple-align",
+  "version": "0.0.0",
+  "description": "Simple multiple cursor alignment",
+  "keywords": [
+    "atom",
+    "align",
+    "cursor"
+  ],
+  "activationCommands": {
+    "atom-workspace": "simple-align:align"
+  },
+  "repository": "https://github.com/stevenhauser/atom-simple-align",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "dependencies": {
+  }
+}

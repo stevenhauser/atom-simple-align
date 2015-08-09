@@ -1,0 +1,22 @@
+# See https://atom.io/docs/latest/hacking-atom-package-word-count#menus for more details
+'context-menu':
+  'atom-text-editor': [
+    {
+      'label': 'Align cursors with simple align'
+      'command': 'simple-align:align'
+    }
+  ]
+'menu': [
+  {
+    'label': 'Packages'
+    'submenu': [
+      'label': 'Simple align'
+      'submenu': [
+        {
+          'label': 'Align cursors'
+          'command': 'simple-align:align'
+        }
+      ]
+    ]
+  }
+]
